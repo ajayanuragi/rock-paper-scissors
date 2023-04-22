@@ -9,13 +9,24 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
-    <p>Steps to Play</p>
+    <div id="score">
+       <p>Your Score <p id="your-score">0</p></p> 
+        <p>Computer Score <p id="computer-score">0</p></p>
+    </div>
+    <!-- <p>Steps to Play</p>
     <ol>
         <li>Choose among Rock, Paper and Scissors When Prompted</li>
         <li>Go to Inspect</li>
         <li>Open Console</li>
         <li>Refresh to Play again</li>
-    </ol>
+    </ol> -->
+    <div id="container">
+        <button id="Rock">🪨</button>
+        <button id="Paper">📃</button>
+        <button id="Scissors">✂️</button>
+    </div>
+    <div id="result-container"></div>
+    <button id="reset" onclick="resetfunction()">Reset</button>
     <script src="./index.js"></script>
 </body>
 </html>
